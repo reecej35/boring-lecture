@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  z-index: 2;
+  min-height: 100%;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p.intro {
+  text-align: center;
+  width: 70%;
+  margin-left: 250px;
+}
+
+.intro {
+  font-style: italic;
+}
+
+p.az {
+  width: 50%;
+}
+
+img.img {
+  float: right;
+  width: 35%;
+  margin-top: -333px;
+  height:300px;
+}
+/*.opaque {
+  position: relative;
+  overflow: hidden;
+}*/
+
+.x {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: auto;
+  height: 100%;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+
+
+/*body::after {
+  background-image: url(http://supernatural.buzz/wp-content/uploads/2015/09/binary-code-pattern.png);
+  height: 500px;
+  width: 500px;
+  background-color: red;
+  color: red;
+  position: absolute;
+  z-index: 9000;
+  display: block;
+}*/
